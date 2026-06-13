@@ -1,0 +1,25 @@
+{
+  "name": "cet-writing-api",
+  "version": "1.0.0",
+  "description": "四六级英语写作智能辅导网站后端API",
+  "type": "module",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "node --watch src/app.js"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-rate-limit": "^8.5.2",
+    "helmet": "^7.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "^2.1.1",
+    "node-fetch": "^2.7.0",
+    "nodemailer": "^8.0.10",
+    "pg": "^8.11.3",
+    "uuid": "^9.0.1"
+  }
+}
