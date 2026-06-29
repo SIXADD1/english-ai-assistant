@@ -23,3 +23,6 @@ lerna-debug.log*
 # 项目特有
 deploy-package.zip
 api/uploads/
+
+# Python
+__pycache__/
